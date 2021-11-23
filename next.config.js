@@ -8,11 +8,13 @@ module.exports = (phase) => {
   const IS_DEV = phase === PHASE_DEVELOPMENT_SERVER;
   const IS_PROD =
     phase === PHASE_PRODUCTION_BUILD && process.env.STAGING !== '1';
-  const API_URL = process.env.API_URL;
   const env = {
-    API_URL,
     IS_DEV,
     IS_PROD,
+    GITHUB_CLIENT_ID: process.env.GITHUB_CLIENT_ID,
+    GITHUB_CLIENT_SECRET: process.env.GITHUB_CLIENT_SECRET,
+    SECRET: process.env.SECRET,
+    NEXTAUTH_URL: process.env.NEXTAUTH_URL,
   };
 
   return {

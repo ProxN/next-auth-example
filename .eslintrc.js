@@ -38,6 +38,7 @@ module.exports = {
     'react/react-in-jsx-scope': 'off',
     '@next/next/no-document-import-in-page': 'off',
     'react-hooks/rules-of-hooks': 'off',
+    'react/display-name': 'off',
     '@typescript-eslint/no-empty-interface': 'off',
   },
 };

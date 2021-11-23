@@ -1,5 +1,5 @@
 {
-  "name": "next-auth",
+  "name": "next-auth-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -39,6 +39,7 @@
     "@xstyled/styled-components": "^3.1.2",
     "color": "^4.0.1",
     "next": "^12.0.3",
+    "next-auth": "^4.0.0-beta.7",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "styled-components": "^5.3.3"
